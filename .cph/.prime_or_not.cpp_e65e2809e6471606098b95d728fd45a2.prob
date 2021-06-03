@@ -1,0 +1,1 @@
+{"name":"Local: prime_or_not","url":"d:\\DSA\\prime_or_not.cpp","tests":[{"id":1622300326525,"input":"64","output":"The number 64 is not prime."}],"interactive":false,"memoryLimit":1024,"timeLimit":3000,"srcPath":"d:\\DSA\\prime_or_not.cpp","group":"local","local":true}
