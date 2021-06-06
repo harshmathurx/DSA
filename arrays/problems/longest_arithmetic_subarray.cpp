@@ -12,6 +12,7 @@ int longestArithmeticSubarray(int a[], int n){
         }
         else{
             pd = a[j] - a[j-1];
+            curr = 2;
         }
         ans = max(ans,curr);
         j++;
