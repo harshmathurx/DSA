@@ -25,14 +25,15 @@ int maximumSumSubarray(int arr[],int n){
         currSum[i] = currSum[i-1] + arr[i-1];
     }
 
-    int maxSum = 0;
+    int maxSum = INT_MIN;
+
     for(int i=1;i<=n;i++){
-        int sum = INT_MIN;
-        for(int j=0;j<i;i++){
+        int sum = 0;
+        for(int j=0;j<i;j++){
             sum = currSum[i] - currSum[j];
             maxSum = max(sum,maxSum);
         }
-    }
+    }    
 
     return maxSum;
 }
