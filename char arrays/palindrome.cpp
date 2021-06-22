@@ -21,7 +21,7 @@ int main(){
         cout<<"word is a palindrome"<<endl;
     }
     else{
-        cout<<"word is not a palindrome"<<endl;
+        cout<<"word is not a palindrome"<<endl ;
     }
 
     return 0;
