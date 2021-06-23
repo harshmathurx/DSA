@@ -30,7 +30,7 @@ int main(){
     for(int i=0;i<t1;i++){
         for(int j=0;j<t3;j++){
             for(int k=0;k<t2;k++){
-                ans[i][j] += A[i][j] * B[k][j]; 
+                ans[i][j] += A[i][k] * B[k][j]; 
             }
         }
     }
